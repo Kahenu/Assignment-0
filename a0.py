@@ -3,4 +3,5 @@ counter = 0
 if amount > counter:
     print('+', end='')
     while counter < amount:
-        print()
+        print(f"-+\n{' ' * (counter * 2)}| |\n{' ' * (counter * 2)}+-+", end='')
+        counter += 1
